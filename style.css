@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    background: url(https://wallpaperaccess.com/full/17520.jpg) no-repeat center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+h1 {
+    color: rgb(240, 240, 240);
+    font-weight: 600;
+    font-size: 2.6em;
+    width: 100%;
+    height: auto; 
+    margin-bottom: .2em;
+    text-shadow: 1px 2px 5px #222222;
+    cursor: default;
+}
+
+
+
+.btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 300px;
+    box-shadow: 0px 0px 5px 0px #333333d5;
+}
+.btn-xl {
+    padding: .8rem 1.5rem;    
+}
+.btn-primary {
+    background-color: #FF5349;
+    border: 2px solid #FF5349;
+    --bs-btn-hover-bg: #d83b33;
+    --bs-btn-hover-border-color: #c5352e;
+}
+hr {
+    margin: 0.8em auto;
+    height: 2px;
+    background: #FF5349;
+    max-width: 55px;
+    color: #FF5349;
+    border: 1px solid red;
+}
+.top-of-page {
+    height: 7em;
+    width: 100%;
+    background: linear-gradient(180deg, black, black, #33333317);
+    position: fixed;
+    top: 0;
+}
+#center-of-page {
+    height: 100vh;
+}
+.bottom-of-page {
+    height: 7em;
+    width: 100%;
+    background: linear-gradient(180deg, #33333300, black, black);
+    position: fixed;
+    bottom: 0;
+}
+span {
+    position: relative;
+    color: white;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 1px 1px 5px 5px black;
+}
